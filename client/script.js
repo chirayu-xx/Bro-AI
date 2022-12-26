@@ -88,6 +88,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
+    // https://bro-ai.onrender.com
     const response = await fetch('https://bro-ai.onrender.com', {
         method: 'POST',
         headers: {
